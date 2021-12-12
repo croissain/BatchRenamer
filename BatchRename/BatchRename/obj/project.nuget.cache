@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DTdl2fo8GRFzlz+iX+I7tdzBQbw3z7ViCmfc2cAxDQI3CfJbPFXm09G0oZzQfATvz5U+oTa+Uqd8furxRQKYsQ==",
+  "success": true,
+  "projectFilePath": "D:\\School\\WindowProgramming\\Project01\\BatchRename1112\\BatchRename\\BatchRename\\BatchRename.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admins\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

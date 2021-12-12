@@ -1,0 +1,31 @@
+<UserControl x:Class="AddWordRuleLib.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AddWordRuleLib"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="300"
+             Loaded="UserControl_Loaded">
+    <Canvas>
+        <TextBlock Text="Add Words" FontWeight="SemiBold" Canvas.Left="105" Canvas.Top="3" FontSize="20"/>
+
+        <Label Content="_Word: " Target="{Binding ElementName=replaceFromTextbox}" FontWeight="SemiBold" Canvas.Left="7" Canvas.Top="40" Foreground="#DD000000" FontSize="14"/>
+        <TextBox Name="wordTextbox" TextChanged="wordTextbox_TextChanged" Width="200" Height="30" Canvas.Left="60" Canvas.Top="40"/>
+
+        <Label Content="_Aply To: " Target="{Binding ElementName=TypeCombobox}" FontWeight="SemiBold" Canvas.Left="8" Canvas.Top="92" Foreground="#DD000000" FontSize="14"></Label>
+        <ComboBox Name="TypeCombobox" SelectionChanged="TypeCombobox_SelectionChanged"
+                  Canvas.Left="77" Canvas.Top="95" Width="180">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Value}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <Button Name="okButton" Width="80" Height="25" Content="OK" Click="OkButton_Click" Canvas.Left="35" Canvas.Top="162"/>
+        <Button Content="Cancel" Width="80" Height="25" IsCancel="True" Canvas.Left="182" Canvas.Top="161" />
+    </Canvas>
+</UserControl>

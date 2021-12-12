@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.0.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RenameRuleLib">
+      <HintPath>..\..\BatchRename\RenameRuleLib\bin\Debug\net5.0-windows\RenameRuleLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

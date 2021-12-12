@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UELbjBmz+aw8tlKRi6X7QIC7b3+b5nXQp5y1E3cz3IfpBhqI/B0f6E71/RLeiDqtQKsdHs2z8L7KmqfsuSfQTw==",
+  "success": true,
+  "projectFilePath": "D:\\School\\WindowProgramming\\Project01\\BatchRename1112\\CustomRuleLib\\AddWordRuleLib\\AddWordRuleLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\Admins\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
